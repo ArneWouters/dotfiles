@@ -48,7 +48,7 @@ ZSH_CUSTOM=$HOME/.zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=()
+plugins=(zsh-completions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -79,9 +79,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 source ~/.shell/aliases.sh
-
-# External plugins (initialized after)
-source ~/.zsh/plugins.zsh
 
 # Makes it only show the username instead of username@machine
 prompt_context() {
