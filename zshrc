@@ -80,6 +80,9 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 source ~/.shell/aliases.sh
 
+# External plugins (initialized after)
+source ~/.zsh/plugins.zsh
+
 # Makes it only show the username instead of username@machine
 prompt_context() {
     if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
