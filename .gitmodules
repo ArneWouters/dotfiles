@@ -23,3 +23,9 @@
 [submodule "vim/pack/vendor/start/vim-trailing-whitespace"]
 	path = vim/pack/vendor/start/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
+[submodule "vim/pack/vendor/start/typescript-vim"]
+	path = vim/pack/vendor/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "vim/pack/vendor/start/vim-argwrap"]
+	path = vim/pack/vendor/start/vim-argwrap
+	url = https://github.com/FooSoft/vim-argwrap.git
