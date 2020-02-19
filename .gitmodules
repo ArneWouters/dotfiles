@@ -5,3 +5,21 @@
 [submodule "vim/pack/vendor/start/nerdtree"]
 	path = vim/pack/vendor/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "vim/pack/vendor/start/vim-easymotion"]
+	path = vim/pack/vendor/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "vim/pack/vendor/start/vim-surround"]
+	path = vim/pack/vendor/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/pack/vendor/start/ctrlp.vim"]
+	path = vim/pack/vendor/start/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/pack/vendor/start/vim-airline"]
+	path = vim/pack/vendor/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "vim/pack/vendor/start/vim-airline-themes"]
+	path = vim/pack/vendor/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "vim/pack/vendor/start/vim-trailing-whitespace"]
+	path = vim/pack/vendor/start/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
