@@ -26,6 +26,7 @@ set laststatus=2 " Always show the status line at the bottom, even if you only h
 set backspace=indent,eol,start " Allow backspacing over everything
 set hidden " Allow auto-hiding of edited buffers
 set incsearch " incremental search (as string is being typed)
+set hls " highlight search
 set mouse+=a " enable mouse mode (scrolling, selection, etc)
 
 " This setting makes search case-insensitive when all characters in the string
@@ -43,6 +44,10 @@ set softtabstop=4
 "--------------------
 " Misc configurations
 "--------------------
+
+" open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
 
 " Unbind some useless/annoying default key bindings.
 nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
