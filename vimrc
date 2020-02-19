@@ -65,3 +65,15 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 "---------------------
 " Plugin configuration
 "---------------------
+
+
+
+"---------------------
+" Local customizations
+"---------------------
+
+" local customizations in ~/.vimrc_local
+let $LOCALFILE=expand("~/.vimrc_local")
+if filereadable($LOCALFILE)
+    source $LOCALFILE
+endif
