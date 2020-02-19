@@ -29,3 +29,9 @@
 [submodule "vim/pack/vendor/start/vim-argwrap"]
 	path = vim/pack/vendor/start/vim-argwrap
 	url = https://github.com/FooSoft/vim-argwrap.git
+[submodule "vim/pack/vendor/start/vim-colorschemes"]
+	path = vim/pack/vendor/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "vim/pack/vendor/start/vim-fugitive"]
+	path = vim/pack/vendor/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

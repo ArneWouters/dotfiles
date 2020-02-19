@@ -41,6 +41,12 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 
+set bg=dark
+set term=screen-256color
+colorscheme PaperColor
+set showcmd
+set showmode
+
 "--------------------
 " Misc configurations
 "--------------------
@@ -71,7 +77,12 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 " Plugin configuration
 "---------------------
 
+"Airline
+let g:airline_theme='tomorrow'
+let g:airline_powerline_fonts = 1
 
+"NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 "---------------------
 " Local customizations
