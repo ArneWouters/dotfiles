@@ -15,6 +15,11 @@ syntax on " turn on syntax highlighting
 set showmatch " show matching braces when text indicator is over them
 set autoindent
 
+" colorscheme settings
+set bg=dark
+set term=screen-256color
+colorscheme PaperColor
+
 "---------------------
 " Basic editing config
 "---------------------
@@ -40,12 +45,6 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-
-set bg=dark
-set term=screen-256color
-colorscheme PaperColor
-set showcmd
-set showmode
 
 "--------------------
 " Misc configurations
