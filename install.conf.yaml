@@ -9,6 +9,15 @@
     ~/.vim:
     ~/.vimrc:
     ~/.zshrc:
+    ~/.zsh:
+    ~/.shell:
 
 - shell:
   - [git submodule update --init --recursive, Installing/Updating submodules]
+  -
+    command: chsh -s $(which zsh)
+    stdin: true
+    stderr: true
+    description: Making zsh the default shell
+    quiet: true
+
