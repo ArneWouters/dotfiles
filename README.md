@@ -5,3 +5,4 @@ My personal dotfiles
 * zsh
 * oh-my-zsh
 * fonts-powerline
+* vim
