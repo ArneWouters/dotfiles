@@ -86,3 +86,7 @@ prompt_context() {
         prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
     fi
 }
+
+# TMUX
+export TERM=xterm-256color
+export LC_CTYPE="en_US.UTF-8"
