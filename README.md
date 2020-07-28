@@ -6,3 +6,4 @@ My personal dotfiles
 * oh-my-zsh
 * fonts-powerline
 * vim
+* tmux
