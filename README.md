@@ -4,9 +4,13 @@ My dotfiles
 ## Getting started
 ### Prerequisites
 * zsh
-* oh-my-zsh
 * vim
 * tmux
+
+#### Install oh-my-zsh
+```bash
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 #### Install powerline font
 ```bash
