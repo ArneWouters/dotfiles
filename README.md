@@ -1,7 +1,7 @@
 # dotfiles
-My personal dotfiles
+My dotfiles
 
-## Required:
+## Prerequisites:
 * zsh
 * oh-my-zsh
 * fonts-powerline
