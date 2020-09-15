@@ -20,5 +20,5 @@ git clone --depth 1 https://github.com/ryanoasis/nerd-fonts.git
 Run the code above and set the font in the terminal preferences.
 ![](https://i.imgur.com/yoZzfpo.png?raw=true)
 
-#### Installing the tmux plugins
+#### Installing tmux plugins
 Press `prefix` + <kbd>I</kbd> (capital i, as in **I**nstall) to fetch the plugins.
