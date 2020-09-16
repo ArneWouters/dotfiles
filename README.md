@@ -22,3 +22,9 @@ Run the code above and set the font in the terminal preferences.
 
 #### Installing tmux plugins
 Press `prefix` + <kbd>I</kbd> (capital i, as in **I**nstall) to fetch the plugins.
+
+#### Installing ![diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+```bash
+sudo npm install -g diff-so-fancy
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+```
