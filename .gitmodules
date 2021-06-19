@@ -41,9 +41,6 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "tmux/plugins/tpm"]
-	path = tmux/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
 [submodule "vim/pack/vendor/start/vim-sensible"]
 	path = vim/pack/vendor/start/vim-sensible
 	url = https://github.com/tpope/vim-sensible
