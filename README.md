@@ -6,6 +6,7 @@ My dotfiles
 * zsh
 * vim
 * tmux
+* exa
 
 #### Install oh-my-zsh
 ```bash
