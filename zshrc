@@ -70,3 +70,6 @@ export LC_CTYPE="en_US.UTF-8"
 
 # Haskell stuff
 export PATH="$PATH:$HOME/.cabal/bin"
+
+# opam configuration
+[[ ! -r /home/awouters/.opam/opam-init/init.zsh ]] || source /home/awouters/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
