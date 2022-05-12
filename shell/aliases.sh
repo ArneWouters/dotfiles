@@ -2,10 +2,10 @@
 alias ..="cd .."
 
 # tmux stuff
-alias tmux="TERM=screen-256color-bce tmux"
+alias tmux="TERM=xterm-256color tmux"
 
 # exa stuff
 alias l='exa -1a'
-alias ll='exa -lh --git'
+alias ll='exa -lh'
 alias ls=exa
-alias lt='exa -lT --git'
+alias lt='exa -lT'
