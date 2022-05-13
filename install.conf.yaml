@@ -6,8 +6,8 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.vim:
-    ~/.vimrc:
+    ~/.config/alacritty:
+    ~/.config/nvim:
     ~/.zshrc:
     ~/.zsh:
     ~/.shell:

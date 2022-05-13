@@ -1,2 +1,4 @@
 tmux/plugins/tmux-*
+nvim/autoload/
+nvim/plugged/
 

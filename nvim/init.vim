@@ -31,6 +31,7 @@ Plug 'junegunn/fzf.vim'                                 " fuzzy search integrati
 Plug 'Yggdroot/indentLine'                              " show indentation lines
 Plug 'tpope/vim-commentary'                             " better commenting
 Plug 'wellle/tmux-complete.vim'                         " complete words from a tmux panes
+Plug 'lervag/vimtex'
 
 "}}}
 
@@ -106,6 +107,11 @@ colorscheme nightfox
 let g:coc_snippet_next = '<Tab>'
 let g:coc_snippet_prev = '<S-Tab>'
 
+let g:tex_flavor = 'latex'
+
+" Use <c-space> to trigger completion.
+inoremap <silent><expr> <c-space> coc#refresh()
+
 " list of the extensions to make sure are always installed
 let g:coc_global_extensions = [
             \'coc-yank',
@@ -126,6 +132,7 @@ let g:coc_global_extensions = [
             \'coc-marketplace',
             \'coc-highlight',
             \'coc-sh',
+            \'coc-vimtex',
             \]
 
 " indentLine
