@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.85
+  opacity: 0.95
 
   # Startup Mode (changes require restart)
   #
@@ -276,8 +276,8 @@ colors:
 
   # Default colors
   primary:
-    background: '0x192330'
-    foreground: '0xcdcecf'
+    background: '0x0d1117'
+    foreground: '0xc5cdd9'
 
   # Normal colors
   normal:

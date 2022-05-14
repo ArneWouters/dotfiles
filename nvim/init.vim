@@ -16,7 +16,7 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 
 Plug 'ryanoasis/vim-devicons'                           " pretty icons everywhere
 Plug 'luochen1990/rainbow'                              " rainbow parenthesis
-Plug 'EdenEast/nightfox.nvim'                           " nightfox color theme
+Plug 'rafamadriz/neon'                                  " neon color theme
 Plug 'Jorengarenar/vim-MvVis'                           " move visual selection
 Plug 'mhinz/vim-startify'                               " fancy start screen
 
@@ -96,10 +96,12 @@ if (has("termguicolors"))
 endif
 hi NonText guifg=bg       " mask ~ on empty lines
 syntax enable
-colorscheme nightfox
+
+let g:neon_style = "dark"
+colorscheme neon
 
 "}}}
-"
+
 
 " ======================== Plugin Configurations ======================== "{{{
 
@@ -189,3 +191,4 @@ function! StartifyEntryFormat()
 endfunction
 
 "}}}
+
