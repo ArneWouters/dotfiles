@@ -19,6 +19,7 @@ Plug 'luochen1990/rainbow'                              " rainbow parenthesis
 Plug 'rafamadriz/neon'                                  " neon color theme
 Plug 'Jorengarenar/vim-MvVis'                           " move visual selection
 Plug 'mhinz/vim-startify'                               " fancy start screen
+Plug 'nvim-lualine/lualine.nvim'                        " pretty statusline
 
 "}}}
 
@@ -99,6 +100,38 @@ syntax enable
 
 let g:neon_style = "dark"
 colorscheme neon
+
+"statusline
+lua << END
+local custom_neon = require'lualine.themes.neon'
+custom_neon.normal.b.bg = '#161b22'
+custom_neon.normal.c.bg = '#161b22'
+custom_neon.command.b.bg = '#161b22'
+custom_neon.insert.b.bg = '#161b22'
+custom_neon.visual.b.bg = '#161b22'
+custom_neon.inactive.b.bg = '#161b22'
+custom_neon.replace.b.bg = '#161b22'
+
+require("lualine").setup{
+	options = {
+		theme = custom_neon,
+		globalstatus = true,
+		-- component_separators = '|',
+		-- section_separators = { left = '▌', right = '▐'},
+	},
+	-- extensions = {
+	-- 	"nvim-tree"
+	-- },
+    sections = {
+        lualine_a = {"mode"},
+        lualine_b = { {"branch"}, {"diff"}, {"diagnostics", sources = {"coc"}, always_visible = false} },
+        lualine_c = { {"filename"}, {"filesize"} },
+        lualine_x = {"encoding", "fileformat", "filetype"},
+        lualine_y = {"progress"},
+        lualine_z = {"location"}
+    }
+}
+END
 
 "}}}
 
