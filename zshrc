@@ -57,6 +57,11 @@ source $ZSH/oh-my-zsh.sh
 # Aliases, for a full list of active aliases, run `alias`.
 source ~/.shell/aliases.sh
 
+# fix git completion
+__git_files () {
+    _wanted files expl 'local files' _files
+}
+
 # Makes it only show the username instead of username@machine
 # prompt_context() {
 #     if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
@@ -188,8 +193,8 @@ export PATH="$PATH:$HOME/.cabal/bin"
 # opam configuration
 [[ ! -r /home/awouters/.opam/opam-init/init.zsh ]] || source /home/awouters/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
+# starship
 eval "$(starship init zsh)"
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
