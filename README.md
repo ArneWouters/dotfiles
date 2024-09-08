@@ -14,6 +14,11 @@ Commands for setting up the links to the config files
 ln -s ~/dotfiles/aerospace/aerospace.toml ~/.config/aerospace/aerospace.toml
 ```
 
+### Aliases
+```bash
+ln -s ~/dotfiles/shell/aliases.sh ~/.shell/aliases.sh
+```
+
 
 ## Extra
 -  [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
