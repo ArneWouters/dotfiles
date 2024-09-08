@@ -843,6 +843,16 @@ require('lazy').setup({
       vim.cmd.hi 'Comment gui=none'
     end,
   },
+  {
+    'nvimdev/dashboard-nvim',
+    event = 'VimEnter',
+    config = function()
+      require('dashboard').setup {
+        -- config
+      }
+    end,
+    dependencies = { { 'nvim-tree/nvim-web-devicons' } },
+  },
 
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
