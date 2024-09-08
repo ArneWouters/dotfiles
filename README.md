@@ -24,6 +24,11 @@ ln -s ~/dotfiles/alacritty ~/.config/alacritty
 ln -s ~/dotfiles/shell/aliases.sh ~/.shell/aliases.sh
 ```
 
+### [Neovim](https://neovim.io/)
+```bash
+ln -s ~/dotfiles/nvim ~/.config/nvim
+```
+
 
 ## Extra
 -  [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
