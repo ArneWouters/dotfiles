@@ -14,6 +14,11 @@ Commands for setting up the links to the config files
 ln -s ~/dotfiles/aerospace/aerospace.toml ~/.config/aerospace/aerospace.toml
 ```
 
+### [Alacritty](https://alacritty.org/index.html)
+```bash
+ln -s ~/dotfiles/alacritty ~/.config/alacritty
+```
+
 ### Aliases
 ```bash
 ln -s ~/dotfiles/shell/aliases.sh ~/.shell/aliases.sh
