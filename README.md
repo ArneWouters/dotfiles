@@ -29,6 +29,11 @@ ln -s ~/dotfiles/shell/aliases.sh ~/.shell/aliases.sh
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ```
 
+### [TMUX](https://github.com/tmux/tmux)
+```bash
+ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
+```
+
 
 ## Extra
 -  [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
