@@ -3,7 +3,7 @@ alias ..="cd .."
 
 # exa stuff
 alias l='exa -1a'
-alias ll='exa -lh --git'
+alias ll='exa -lha --git'
 alias ls=exa
 alias lt='exa -lT --git'
 
