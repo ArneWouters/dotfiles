@@ -29,6 +29,11 @@ ln -s ~/dotfiles/shell/aliases.sh ~/.shell/aliases.sh
 ln -s ~/dotfiles/nvim ~/.config/nvim
 ```
 
+### [Starship](https://starship.rs)
+```bash
+ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml
+```
+
 ### [TMUX](https://github.com/tmux/tmux)
 ```bash
 ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
