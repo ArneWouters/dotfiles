@@ -46,5 +46,6 @@ ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 sudo npm install -g diff-so-fancy
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 ```
-- [Eza](https://github.com/eza-community/)
+- [eza](https://github.com/eza-community/)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
 
