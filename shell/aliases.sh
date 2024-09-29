@@ -2,10 +2,10 @@
 alias ..="cd .."
 
 # exa stuff
-alias l='exa -1a'
-alias ll='exa -lha --git'
-alias ls=exa
-alias lt='exa -lT --git'
+alias l='eza -1a'
+alias ll='eza -lha --git'
+alias ls=eza
+alias lt='eza -lT --git'
 
 # brazil
 alias bb=brazil-build
