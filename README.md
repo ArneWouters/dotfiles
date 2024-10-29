@@ -41,4 +41,7 @@ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 ```
 - [eza](https://github.com/eza-community/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [bat](https://github.com/sharkdp/bat)
+- [fzf](https://github.com/junegunn/fzf)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
 
