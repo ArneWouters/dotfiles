@@ -1,6 +1,9 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/themes/eldritch.toml"]
+import = [
+  "themes/eldritch.toml",
+  "keybindings.toml"
+]
 
 [env]
   TERM = "alacritty"
