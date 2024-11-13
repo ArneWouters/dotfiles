@@ -44,4 +44,5 @@ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 - [bat](https://github.com/sharkdp/bat)
 - [fzf](https://github.com/junegunn/fzf)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [pre-commit](https://pre-commit.com)
 
