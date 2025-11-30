@@ -46,3 +46,5 @@ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [pre-commit](https://pre-commit.com)
 
+### Bash shortcut cheat-sheet
+![image](https://raw.githubusercontent.com/fliptheweb/bash-shortcuts-cheat-sheet/master/moving_cli.png)
