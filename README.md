@@ -50,6 +50,7 @@ git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 - [fzf](https://github.com/junegunn/fzf)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [pre-commit](https://pre-commit.com)
+- [atuin](https://github.com/atuinsh/atuin)
 
 ### Bash shortcut cheat-sheet
 ![image](https://raw.githubusercontent.com/fliptheweb/bash-shortcuts-cheat-sheet/master/moving_cli.png)
