@@ -32,6 +32,11 @@ ln -s ~/dotfiles/starship/starship.toml ~/.config/starship.toml
 ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
 
+### bin
+```bash
+ln -s ~/dotfiles/bin/* ~/.local/bin
+```
+
 
 ## Extra
 -  [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
