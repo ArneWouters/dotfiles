@@ -14,7 +14,7 @@ ln -s ~/dotfiles/alacritty ~/.config/alacritty
 
 ### Aliases
 ```bash
-ln -s ~/dotfiles/shell/aliases.sh ~/.shell/aliases.sh
+ln -s ~/dotfiles/zsh/aliases.zsh ~/.aliases.zsh
 ```
 
 ### [Neovim](https://neovim.io/)
