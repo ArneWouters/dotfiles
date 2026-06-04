@@ -17,6 +17,11 @@ ln -s ~/dotfiles/alacritty ~/.config/alacritty
 ln -s ~/dotfiles/zsh/aliases.zsh ~/.aliases.zsh
 ```
 
+### Atuin
+```bash
+ln -s ~/dotfiles/atuin/config.toml ~/.config/atuin/config.toml
+```
+
 ### [Neovim](https://neovim.io/)
 ```bash
 ln -s ~/dotfiles/nvim ~/.config/nvim
